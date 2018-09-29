@@ -1,5 +1,7 @@
 User-agent: *
 Disallow:/contact.html 
+Disallow:/CV-Qingyin Ma.pdf
+Disallow:/teaching.html
 Disallow:/css/
 Disallow:/js/
 Disallow:/api/
