@@ -1,268 +1,215 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-	<head>
-	    <meta name="description" content="This is Qingyin Ma's homepage (马庆寅的个人主页). 
-	    ISEM; Capital University of Economics and Business;
-	    RSE; CBE; Australian National University">
+<head>
+    <meta name="description" content="This is Qingyin Ma's homepage (马庆寅的个人主页). 
+    ISEM; Capital University of Economics and Business;
+    RSE; CBE; Australian National University">
 
-	    <meta name="keywords" content="Qingyin Ma, 马庆寅, Economics, Mathematics">
+    <meta name="keywords" content="Qingyin Ma, 马庆寅, Economics, Mathematics">
 
-	    <meta heep-equiv="author" content="Qingyin Ma">
+    <meta http-equiv="author" content="Qingyin Ma">
 
-	    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		
-		<title> Qingyin Ma - Homepage (马庆寅-个人主页)</title>
-		<style type="text/css">
-		
-			body {
-				margin-top: 0;
-				margin-left: 10%;
-				margin-right: 10%;
-				padding:0;
-				font-family: Sans-Serif;
-				line-height: 1.5em;
-			}
-			
-			#header {
-				background: black;
-				height: 120px;
-			}
-			
-			#header h1 {
-				margin: 0;
-				padding-top: 18px;
-				color: grey;
-				margin-left: .25cm;
-			}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-			#header p {
-				color: grey;
-				margin-left: .5cm;
-			}
-			
-			main {
-				padding-bottom: 10010px;
-				margin-bottom: -10000px;
-				float: left;
-				width: 100%;
-			}
+    <title> Qingyin Ma - Homepage (马庆寅-个人主页)</title>
 
-			main a {
-            	text-decoration: none;
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Sans-Serif;
+            line-height: 1.5em;
+            max-width: 100%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        #header {
+            background: black;
+            height: auto;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #header h1 {
+            margin: 0;
+            padding: 10px 0;
+            color: grey;
+        }
+
+        #header p {
+            color: grey;
+        }
+
+        #wrapper {
+            display: flex;
+            justify-content: flex-start;
+            background: lightgrey;
+        }
+
+        /* Style for the main content */
+        main {
+            flex: 1;
+            padding: 15px;
+        }
+
+        main a {
+            text-decoration: none;
+        }
+
+        main p {
+            color: black;
+        }
+
+        main img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+        }
+
+        /* Style for the navigation */
+        #nav {
+            width: 230px;
+            background: #eee;
+            padding: 15px;
+            flex-shrink: 0;
+        }
+
+        nav h3, nav h4 {
+            margin-left: 0.1cm;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul a {
+            color: darkgreen;
+            text-decoration: none;
+        }
+
+        #footer {
+            clear: both;
+            width: 100%;
+            background: black;
+            text-align: center;
+            padding: 4px 0;
+        }
+
+        #footer p {
+            color: grey;
+        }
+
+        #footer a {
+            color: grey;
+            text-decoration: none;
+        }
+
+        .innertube {
+            padding: 15px;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            #wrapper {
+                flex-direction: column;
             }
 
-            main p {
-				color: balck; 
-			}
+            #nav {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
 
-			main img {
-				display: block;
-				margin-right:20px;
-				margin-left:20px;
-			}
-			
-			#nav {
-				padding-bottom: 10010px;
-				margin-bottom: -10000px;
-				float: left;
-				width: 230px;
-				margin-left: -100%;
-				background: #eee; 
-			}
-			
-			nav h3{
-				margin-left: .1cm;
-			}
+<body>
 
-			nav h4{
-				margin-left: .1cm; 
-				margin-bottom: .25cm;
-			}
+<header id="header">
+    <div class="innertube">
+        <h1> Qingyin Ma（马庆寅） </h1>
 
-			nav ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				margin-left: .2cm;
-			}
-			
-			nav ul a {
-				color: darkgreen;
-				text-decoration: none;
-			}
+        <p>
+            <b>Random Quote:</b>
+            <i> It's important to realize that innovation and growth in itself are not sufficient to moderate inequality of wealth. </i>
+            —— Thomas Piketty
+        </p>
+    </div>
+</header>
 
-			#footer {
-				clear: left;
-				width: 100%;
-				background: black;
-				text-align: center;
-				padding: 4px 0;
-			}
+<div id="wrapper">
+    <!-- Navigation section (left side) -->
+    <nav id="nav">
+        <div class="innertube">
+            <h3> Site Map </h3>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="cv.pdf"> CV </a></li>
+                <li><a href="research.html"> Research </a></li>
+                <li><a href="teaching.html"> Teaching </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
 
-			#footer p {
-				color: grey;
-			}
+            <h3> Other Links</h3>
+            <ul>
+                <li><a href="https://github.com/Qingyin-Ma"> GitHub </a></li>
+                <li> <a href="https://orcid.org/0000-0001-8862-4210"> ORCID </a></li>
+                <li><a href="https://isem.cueb.edu.cn/szdw/xyjs/flag103064.htm"> ISEM Page </a></li>
+                <li><a href="https://quantecon.org/">Quant Econ </a></li>
+            </ul>
+        </div>
+    </nav>
 
-			#footer a {
-				color:grey;
-				text-decoration: none;
-			}
-	
-			#wrapper {
-				overflow: hidden;
-				background: lightgrey;
-			}
-						
-			#content {
-				margin-left: 230px; /* Same as 'nav' width */
-			}
-			
-			.innertube {
-				margin: 15px; /* Padding for content */
-				margin-top: 0;
-			}
-		
-		</style>
-		
-		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<!--
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126615212-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+    <!-- Main content section (right side) -->
+    <main>
+        <div class="innertube">
+            <p><img src="image.jpg" alt="self image" align="right"></p>
 
-			gtag('config', 'UA-126615212-1');
-		</script>
-	    -->
+            <h3> About Me </h3>
 
+            <p> I am a Professor of Economics at the International School of Economics and Management, Capital University of Economics and Business.</p>
 
+            <p style="margin-bottom: 0.6cm">
+                My primary research interests include <font color="darkblue">Quantitative / Mathematical Economics</font> and <font color="darkblue">Macroeconomics</font>. My recent research projects are concerned with wealth inequality and related economic policies, with a particular focus on the quantitative impact of capital income risk on wealth inequality.
+            </p>
 
-		<!--<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> -->
+            <p>
+                I am a huge fan of mathematics and programming (Python/Julia). My secondary research interests include <font color="darkblue">Dynamic Programming Theory</font> and <font color="darkblue">Stochastic Stability</font>.
+            </p>
 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </main>
+</div>
 
-		<!--
-		<script type="text/javascript">
-			/* =============================
-			This script generates sample text for the body content. 
-			You can remove this script and any reference to it. 
-			 ============================= */
-			var bodyText=[]
-			function generateText(sentenceCount){
-				for (var i=0; i<sentenceCount; i++)
-				document.write(bodyText[Math.floor(Math.random()*7)]+" ")
-			}
-		</script>	
-		-->
-	
-	</head>
-	
-	<body a link="blue" vlink="blue">
+<footer id="footer">
+    <div class="innertube">
+        <p>
+            Copyright © Qingyin Ma.<br/>
+            <a href="googlec10ef7054bd770b7.html">All rights reserved.</a>
+        </p>
+    </div>
+</footer>
 
-		<header id="header">
-			<div class="innertube">
-				<h1> Qingyin Ma（马庆寅） </h1>
-
-				<p> 
-					<b>Random Quote:</b> 
-					<i> It's important to realize that innovation and growth in itself are not sufficient to moderate inequality of wealth. </i>
-					—— Thomas Piketty
-					<!--<i> Little else is requisite to carry a state to the highest degree of opulence from the lowest barbarism but peace, easy taxes, and a tolerable administration of justice. </i>
-				    —— Adam Smith -->
-				</p>
-			</div>
-		</header>
-		
-		<div id="wrapper">
-		
-			<main>
-				<div id="content">
-					<div class="innertube">
-					    <p> <img src="image.jpg" alt="self image" align="right"> </p>
-
-					    <h3> About Me </h3>
-
-					    <p> I am a Professor of Economics at the International School of Economics and Management, Capital University of Economics and Business.
-					    </p>
-
-					    <p style="margin-bottom: 0.6cm">
-					    My primary research interests include <font color="darkblue">Quantitative / Mathematical Economics</font> and <font color="darkblue">Macroeconomics</font>. My recent research projects are concerned with wealth inequality and related economic policies, with a particular focus on the quantitative impact of capital income risk on wealth inequality. </p>
-
-					    <p>
-					    	I am a huge fan of mathematics and programming (Python/Julia). My secondary research interests include <font color="darkblue">Dynamic Programming Theory</font> and <font color="darkblue">Stochastic Stability</font>. 
-					    </p>
-
-					    <br>
-
-						
-					</div>
-				</div>
-			</main>
-			
-			<nav id="nav">
-				<div class="innertube">
-					<h3> Site Map </h3>
-					<ul>
-						<li><a href="index.html"> Home </a></li>
-						<li><a href="cv.pdf"> CV </a></li>
-						<li><a href="research.html"> Research </a></li>
-						<li><a href="teaching.html"> Teaching </a></li>
-						<li><a href="contact.html"> Contact </a></li>
-						<br>
-						<br>
-						<br>
-					</ul>
-
-					<h4> Other Links
-						<!--<g:plusone size="small" count="true" href="https://qingyin-ma.github.io"></g:plusone> -->
-					</h4>
-					<ul>
-					    <li><a href="https://github.com/Qingyin-Ma"> GitHub </a>
-					    </li>
-					    <li> <a href="https://orcid.org/0000-0001-8862-4210"> ORCID </a>
-					    </li>
-					    <li><a href="https://isem.cueb.edu.cn/szdw/xyjs/flag103064.htm"> ISEM Page </a>
-					    </li>
-					    <li><a href="https://quantecon.org/">Quant Econ </a>
-					    </li>
-					    <!--<li><a href="https://scholar.google.com.au/"> Google Scholar </a>
-					    </li> -->
-					    <br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-
-					</ul>
-				</div>
-			</nav>
-		
-		</div>
-
-
-		<footer id="footer" a link="grey" vlink="grey">
-			<div class="innertube">
-				<p> 
-				Copyright © Qingyin Ma.<br/>
-				<a href="googlec10ef7054bd770b7.html">All rights reserved.</a>
-			    </p>
-				<!-- <a href="index.html"> Back to top </a> -->
-			</div>
-		</footer>
-    
-	</body>
+</body>
 </html>
