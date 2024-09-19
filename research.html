@@ -57,6 +57,12 @@
 
         main a {
             text-decoration: none;
+            color: blue; /* Default color for links */
+        }
+
+        /* Add visited state */
+        main a:visited {
+            color: blue; /* Same color as unvisited links */
         }
 
         main p {
@@ -91,6 +97,10 @@
         nav ul a {
             color: darkgreen;
             text-decoration: none;
+        }
+
+        nav ul a:visited {
+            color: darkgreen; /* Same color as unvisited links */
         }
 
         #footer {
@@ -205,7 +215,7 @@
                         <a href="http://arxiv.org/abs/2308.07577"> [Working Paper] &nbsp </a>
                         <a href="https://github.com/Qingyin-Ma/cp_code"> [Code: Python] </a> 
                         </br>
-                        <a> (The working paper contains all appendices, and the <a style="color: darkblue">Online Appendix</a> of the published paper  </br> 
+                        <a style="color: black"> (The working paper contains all appendices, and the <a style="color: darkblue">Online Appendix</a> of the published paper  </br> 
                         corresponds to <a style="color: darkblue">Appendices D-G</a> in the working paper.) </a>
                         </p>
                         </li>
